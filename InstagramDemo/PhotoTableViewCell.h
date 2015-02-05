@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoTableViewCell.h
 //  InstagramDemo
 //
 //  Created by Ke Huang on 2/4/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *posterView;
 
 @end
-
